@@ -1,0 +1,2 @@
+# blog
+OpenRegistry Blog
