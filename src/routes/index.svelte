@@ -1,14 +1,17 @@
 <script>
     import User from "../lib/icons/user.svelte"
+    import {goto} from "$app/navigation";
 </script>
 
 <svelte:head>
     <title>Blog | OpenRegistry</title>
 </svelte:head>
 
-<div class="grid grid-cols-3 gap-5 min-h-[1000px] items-center px-2">
-    <div class="flex flex-col p-8 drop-shadow-2xl cursor-pointer transition ease-in-out delay-100
-    hover:-translate-y-1 hover:scale-110 duration-200">
+<div class="flex flex-col lg:grid grid-cols-3 gap-5 min-h-[1000px] items-center px-2">
+    <div
+        on:click={() => goto("/posts/overview")}
+        class="flex flex-col p-8 drop-shadow-2xl cursor-pointer transition ease-in-out delay-100
+        hover:-translate-y-1 hover:scale-110 duration-200">
         <div><img class="rounded-t-xl" src="../../static/overview.png" alt="" width="1280"/></div>
         <div class="flex flex-col rounded-b-xl gap-4 p-4 border-4 border-brown-100 bg-brown-100">
             <span class="text-brown-400 text-2xl font-semibold">OpenRegistry Overview</span>
@@ -21,7 +24,9 @@
             </div>
         </div>
     </div>
-    <div class="flex flex-col p-8 drop-shadow-2xl cursor-pointer transition ease-in-out delay-100
+    <div
+        on:click={() => goto("/posts/collaborations")}
+        class="flex flex-col p-8 drop-shadow-2xl cursor-pointer transition ease-in-out delay-100
     hover:-translate-y-1 hover:scale-110 duration-200">
         <div><img class="rounded-t-xl" src="../../static/collab.png" alt="" width="1280"/></div>
         <div class="flex flex-col rounded-b-xl gap-4 p-4 border-4 border-brown-100 bg-brown-100">
@@ -35,7 +40,9 @@
             </div>
         </div>
     </div>
-    <div class="flex flex-col p-8 drop-shadow-2xl cursor-pointer transition ease-in-out delay-100
+    <div
+            on:click={() => goto("/posts/web3-infrastructure")}
+            class="flex flex-col p-8 drop-shadow-2xl cursor-pointer transition ease-in-out delay-100
     hover:-translate-y-1 hover:scale-110 duration-200">
         <div><img class="rounded-t-xl" src="../../static/web3.png" alt="" width="1280"/></div>
         <div class="flex flex-col rounded-b-xl gap-4 p-4 border-4 border-brown-100 bg-brown-100">

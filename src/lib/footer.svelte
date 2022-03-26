@@ -5,7 +5,7 @@
     import Logo from '$lib/logo.svelte';
 </script>
 
-<footer>
+<footer class="bg-gray-50">
     <div class="container px-10 pb-8 pt-12 mx-auto half:px-0">
         <div class="flex justify-center">
             <div class="w-full -mx-6">
