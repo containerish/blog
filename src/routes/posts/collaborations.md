@@ -65,7 +65,7 @@ OpenRegistry uses Skynet as it's storage layer. All of the static contents for o
 With Skynet we have been able to maintain 98%+ up-time for OpenRegistry Web-App.
 Check <a href="https://status.openregistry.dev/" target="_blank">OpenRegistry - status</a> for details.
 
-* with Skynet, OpenRegsitry only stores skylinks (which are content hashes) of your container images.
+> with Skynet, OpenRegsitry only stores skylinks (which are content hashes) of your container images.
 
 In addition to collaboration, we are also maintaining a fork of Skynet-Go SDK since OpenRegsitry is developed in Go and 
 the  same Skynet-Go SDK can be used by other developers as we continue to update it.
