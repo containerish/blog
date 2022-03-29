@@ -31,12 +31,12 @@
         <div><img class="rounded-t-xl" src="../../static/collab.png" alt="" width="1280"/></div>
         <div class="flex flex-col rounded-b-xl gap-4 p-4 border-4 border-brown-100 bg-brown-100">
             <span class="text-brown-400 text-2xl font-semibold">Collaboration</span>
-            <span>This blog Will talk about collaborations with Amazing Community Projects and how
-                OpenRegistry functions with them.Also a little sneak-peak about in the queue collaborations!!
+            <span>In this blog we will talk about collaborations with Amazing Community Projects and how
+                OpenRegistry functions with them. Also a little sneak-peak about collaborations in the queue !!
             </span>
             <div class="flex items-center justify-start">
                 <User styles="w-8"/>
-                <span class="text-brown-300 pt-1 font-normal">Guacamole | Mar 24 2022</span>
+                <a href="https://twitter.com/guacaemole" target="_blank" class="text-brown-300 pt-1 font-normal hover:no-underline">Guacamole | Mar 24 2022</a>
             </div>
         </div>
     </div>
@@ -47,7 +47,7 @@
         <div><img class="rounded-t-xl" src="../../static/web3.png" alt="" width="1280"/></div>
         <div class="flex flex-col rounded-b-xl gap-4 p-4 border-4 border-brown-100 bg-brown-100">
             <span class="text-brown-400 text-2xl font-semibold">Web3.0 Infrastructure </span>
-            <span>Talking about the Awesome Web 3.0 Projects out there and how they add value to the overall ecosystem.
+            <span>This blog compiles a list of Awesome Web 3.0 Projects out there and how they add value to the overall ecosystem.
                 Projects that we'd love to collaborate with and are super excited about
             </span>
             <div class="flex items-center justify-start">

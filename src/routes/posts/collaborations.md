@@ -72,8 +72,6 @@ the  same Skynet-Go SDK can be used by other developers as we continue to update
 
 With more adoption and use, OpenRegistry is moving towards accomplishing it's Goal which is to make OpenRegistry free for everyone.
 
-### How OpenRegistry functions with Akash and Skynet
---diagram--
 
 ## Collaborations in Progress
 
@@ -83,6 +81,7 @@ networks which means collaboration with more platforms.
 
 We are also planning on collaborating with IPFS to bring the powerful Interplanetary File System to OpenRegistry.
 
+<img src="../../../static/collaborations.png" alt="">
 
 ## Collaborate with OpenRegistry
 
@@ -96,6 +95,7 @@ OpenRegistry code is Open Source and is going to stay Open Source . We will star
 
 ---
 
-#### Join the Conversation
-<Form/>
+##
+
+
 

@@ -65,6 +65,8 @@ OpenRegistry uses Akash Network as it's compute layer and Skynet as Storage laye
 OpenRegistry database only stores the skylinks to the actual container images thus 
 ensuring complete privacy.
 
+<img src="../../../static/openregsitry-push-layer.png" alt="">
+
 ## What's Next for OpenRegistry?
 There are great many thing we would want to introduce in and around OpenRegistry to build a complete ecosystem for 
 public goods. We want to be more involved in community projects aside from our daily jobs and provide high quality service 
