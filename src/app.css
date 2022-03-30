@@ -16,6 +16,8 @@ body {
     background-color: #e5e2e0;
     margin: 0;
     padding: 0px;
+    @apply mx-auto;
+    max-width: 2000px !important;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 

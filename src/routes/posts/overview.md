@@ -9,12 +9,13 @@ layout: post
 # OpenRegistry Overview
 <div class="flex w-full justify-center items-center gap-5">
     <User styles="w-6 h-6"/>
-    <span class="not-prose font-poppins not-prose text-brown-300">Guacamole | MAR 25 2022 | 5 min Read</span>
+    <span class="not-prose font-poppins not-prose text-brown-300"><a href="https://github.com/guacamole" target="_blank">Guacamole</a>
+| MAR 25 2022 | 5 min Read</span>
 </div>
 <img src="/container.png" alt="" width="3567"/>
 
-I would like to start with a little background of how I came to be in tech and ended up being a part of OpenRegistry - 
-a Distributed and OpenSource container registry.
+I would like to start with a little background of how I came to be in tech and ended up being a part of **OpenRegistry - 
+a Distributed and OpenSource container registry.**
 I am a computer science graduate (graduated in 2015) from a small town in central region of India. 
 I straight off started working in a corporate firm(at 20) after graduation thinking it's the best place to be. 
 I had little to no guidance which ended up in multiple bad career choices and worse mental health since I did not 

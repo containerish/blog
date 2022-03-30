@@ -9,7 +9,8 @@ layout: post
 # Web 3.0 Infrastructure
 <div class="flex w-full justify-center items-center gap-5">
     <User styles="w-6 h-6"/>
-    <span class="not-prose font-poppins not-prose text-brown-300">Guacamole | MAR 25 2022 | 5 min Read</span>
+    <span class="not-prose font-poppins not-prose text-brown-300"><a href="https://github.com/guacamole" target="_blank">Guacamole</a> 
+| MAR 25 2022 | 5 min Read</span>
 </div>
 <img src="/cosmos.png" alt="" width="3567"/>
 
