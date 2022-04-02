@@ -12,7 +12,7 @@ layout: post
     <span class="not-prose font-poppins not-prose text-brown-300"><a href="https://github.com/guacamole" target="_blank">Guacamole</a>
 | MAR 25 2022 | 5 min Read</span>
 </div>
-<img src="/container.png" alt="" width="3567"/>
+<img src="/container.png" alt="openregistry-container-overview" width="3567"/>
 
 I would like to start with a little background of how I came to be in tech and ended up being a part of **OpenRegistry - 
 a Distributed and OpenSource container registry.**
@@ -70,7 +70,7 @@ OpenRegistry uses Akash Network as it's compute layer and Skynet as Storage laye
 OpenRegistry database only stores the skylinks to the actual container images thus 
 ensuring complete privacy.
 
-<img src="../../../static/openregsitry-push-layer.png" alt="">
+<img src="/openregsitry-push-layer.png" alt="openregistry-overview">
 
 ## What's Next for OpenRegistry?
 

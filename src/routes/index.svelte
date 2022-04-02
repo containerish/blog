@@ -18,7 +18,7 @@
 			class="cursor-pointer transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105
 		xl:hover:scale-110 duration-200"
 		>
-			<div><img class="rounded-t-xl" src="../../static/overview.png" alt="1280" /></div>
+			<div><img class="rounded-t-xl" src="/overview.png" alt="1280" /></div>
 			<div class="flex flex-col rounded-b-xl gap-4 p-4 border-4 border-brown-100 bg-brown-100">
 				<span class="text-brown-400 text-2xl font-semibold">OpenRegistry Overview</span>
 				<span>
@@ -44,7 +44,7 @@
 			class="cursor-pointer transition ease-in-out delay-100 hover:-translate-y-1
 		hover:scale-105 duration-200"
 		>
-			<div><img class="rounded-t-xl" src="../../static/collab.png" alt="" width="1280" /></div>
+			<div><img class="rounded-t-xl" src="/collab.png" alt="" width="1280" /></div>
 			<div class="flex flex-col rounded-b-xl gap-4 p-4 border-4 border-brown-100 bg-brown-100">
 				<span class="text-brown-400 text-2xl font-semibold">Collaboration</span>
 				<span>
@@ -71,7 +71,7 @@
 			class="cursor-pointer transition ease-in-out delay-100 hover:-translate-y-1
 		hover:scale-105 duration-200"
 		>
-			<div><img class="rounded-t-xl" src="../../static/web3.png" alt="" width="1280" /></div>
+			<div><img class="rounded-t-xl" src="/web3.png" alt="" width="1280" /></div>
 			<div class="flex flex-col rounded-b-xl gap-4 p-4 border-4 border-brown-100 bg-brown-100">
 				<span class="text-brown-400 text-2xl font-semibold">Web3.0 Infrastructure </span>
 				<span>

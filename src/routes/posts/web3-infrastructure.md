@@ -12,7 +12,7 @@ layout: post
     <span class="not-prose font-poppins not-prose text-brown-300"><a href="https://github.com/guacamole" target="_blank">Guacamole</a> 
 | MAR 25 2022 | 5 min Read</span>
 </div>
-<img src="/cosmos.png" alt="" width="3567"/>
+<img src="/cosmos.png" alt="openregistry-in-cosmos" width="3567"/>
 
 As we witness the rise of Web 3.0 and shift in paradigm of technology. The world is moving towards decentralisation 
 with DeFi (Decentralised Finance) which uses smart contracts and trustless protocols to facilitate peer-to-peer financial 

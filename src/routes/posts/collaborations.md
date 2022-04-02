@@ -2,17 +2,17 @@
 layout: post
 ---
 <script>
-    import User from "../../lib/icons/user.svelte";
-    import Form from "../../lib/form.svelte";
+import User from "../../lib/icons/user.svelte";
+import Form from "../../lib/form.svelte";
 </script>
 
 # OpenRegistry and Collaborations with Community Projects
 <div class="flex w-full justify-center items-center gap-5">
-    <User styles="w-6 h-6"/>
-    <span class="not-prose font-poppins not-prose text-brown-300"><a href="https://github.com/guacamole" target="_blank">Guacamole</a> 
+<User styles="w-6 h-6"/>
+<span class="not-prose font-poppins not-prose text-brown-300"><a href="https://github.com/guacamole" target="_blank">Guacamole</a> 
 | MAR 25 2022 | 4 min Read</span>
 </div>
-<img src="/baloons.png" alt="" width="3567"/>
+<img src="/baloons.png" alt="openregistry-collaborations-header" width="3567"/>
 
 >A breath of our inspiration  
 Is the life of each generation;  
@@ -82,7 +82,7 @@ networks which means collaboration with more platforms.
 
 We are also planning on collaborating with IPFS to bring the powerful Interplanetary File System to OpenRegistry.
 
-<img src="../../../static/collaborations.png" alt="">
+<img src="/collaborations.png" alt="openregistry-collaborations">
 
 ## Collaborate with OpenRegistry
 
