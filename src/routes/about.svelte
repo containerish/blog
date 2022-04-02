@@ -9,9 +9,12 @@
 
 <div>
     <div class="flex flex-col w-full min-h-[75vh] my-20 px-5">
-        <div class="justify-start items-center px-10 py-6 pb-4 rounded-xl">
-            <h1 class="text-3xl lg:text-5xl font-semibold font-poppins text-brown-900 mb-10 text-center">
-                Decentralisation is the Future! and we want to play a role in making it better
+        <div class="justify-start items-center px-24 py-6 pb-4 rounded-xl">
+            <h1 class="text-3xl lg:text-5xl font-semibold font-poppins text-brown-900">
+                Decentralisation is the Future!
+            </h1>
+            <h1 class="text-3xl lg:text-5xl font-semibold font-poppins text-brown-900 mb-10">
+                and we want to play a role in making it better
             </h1>
             <span class="text-lg lg:text-xl font-poppins text-black">
 				Our Vision is derived and powered by the principals of Web 3.0 and Dworld of Dapps. With
@@ -21,7 +24,7 @@
 				of scalability, reliability and transparency.
 			</span>
             <div>
-                <h1 class="text-2xl lg:text-4xl font-semibold text-brown-400 mt-6 mb-2">
+                <h1 class="text-2xl lg:text-4xl font-semibold text-brown-400 mt-16 mb-2">
                     Help build an Open Source World with us
                 </h1>
                 <span class="text-lg lg:text-xl font-poppins text-brown-400">
