@@ -32,9 +32,6 @@
                                     target="_blank"
                                     class="block mt-2 text-sm text-gray-600 hover:underline cursor-pointer"
                             >Containerish</a>
-                            <a
-                                    href="#"
-                                    class="block mt-2 text-sm text-gray-600 hover:underline">Brand Assets</a>
                         </div>
 
                         <div>

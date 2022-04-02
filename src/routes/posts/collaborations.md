@@ -9,7 +9,8 @@ layout: post
 # OpenRegistry and Collaborations with Community Projects
 <div class="flex w-full justify-center items-center gap-5">
     <User styles="w-6 h-6"/>
-    <span class="not-prose font-poppins not-prose text-brown-300">Guacamole | MAR 25 2022 | 5 min Read</span>
+    <span class="not-prose font-poppins not-prose text-brown-300"><a href="https://github.com/guacamole" target="_blank">Guacamole</a> 
+| MAR 25 2022 | 4 min Read</span>
 </div>
 <img src="/baloons.png" alt="" width="3567"/>
 
@@ -65,15 +66,13 @@ OpenRegistry uses Skynet as it's storage layer. All of the static contents for o
 With Skynet we have been able to maintain 98%+ up-time for OpenRegistry Web-App.
 Check <a href="https://status.openregistry.dev/" target="_blank">OpenRegistry - status</a> for details.
 
-* with Skynet, OpenRegsitry only stores skylinks (which are content hashes) of your container images.
+> with Skynet, OpenRegsitry only stores skylinks (which are content hashes) of your container images.
 
 In addition to collaboration, we are also maintaining a fork of Skynet-Go SDK since OpenRegsitry is developed in Go and 
 the  same Skynet-Go SDK can be used by other developers as we continue to update it.
 
 With more adoption and use, OpenRegistry is moving towards accomplishing it's Goal which is to make OpenRegistry free for everyone.
 
-### How OpenRegistry functions with Akash and Skynet
---diagram--
 
 ## Collaborations in Progress
 
@@ -83,6 +82,7 @@ networks which means collaboration with more platforms.
 
 We are also planning on collaborating with IPFS to bring the powerful Interplanetary File System to OpenRegistry.
 
+<img src="../../../static/collaborations.png" alt="">
 
 ## Collaborate with OpenRegistry
 
@@ -96,6 +96,7 @@ OpenRegistry code is Open Source and is going to stay Open Source . We will star
 
 ---
 
-#### Join the Conversation
-<Form/>
+##
+
+
 
