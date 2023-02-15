@@ -5,16 +5,14 @@ const opts: Options = { breaks: true, linkify: true, typographer: true, html: tr
 const md = new MarkdownIt(opts);
 
 export const load = (async ({ params }) => {
-	console.log(params);
-	const mdContent = await getMarkdownFile(params.slug);
-	console.log('mdcontent: ', mdContent);
+	const mdContent = getMarkdownFile(params.slug);
 	return {
 		params,
 		content: md.render(mdContent)
 	};
 }) satisfies PageServerLoad;
 
-async function getMarkdownFile(path: string) {
-	const content = await readFileSync(`src/lib/posts/${path}.md`, 'utf-8');
+function getMarkdownFile(path: string) {
+	const content = readFileSync(`src/lib/posts/${path}.md`, 'utf-8');
 	return content;
 }

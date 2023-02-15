@@ -44,30 +44,27 @@ With new Persistent storage feature, Akash has made it even more reliable to hos
 about losing your deployments.
 We are all but thankful for Akash and their solid companionship.
 
-## Sia Skynet
+## Inter Planetory File System (IPFS)
 
-Skynet is a decentralised hosting platform aka Airbnb for Data Storage. The Skynet code is open source and they take 
-care of encrypting your files and breaking them into pieces which are then stored on servers all over then world without a 
-central entity controlling anything.
-OpenRegistry uses Skynet as it's storage layer. All of the static contents for our web-app in addition to all of the container images are stored on Skynet.
-With Skynet we have been able to maintain 98%+ up-time for OpenRegistry Web-App.
-Check <a href="https://status.openregistry.dev/" target="_blank">OpenRegistry - status</a> for details.
+IPFS is a peer-to-peer 
 
-> with Skynet, OpenRegsitry only stores skylinks (which are content hashes) of your container images.
+> with IPFS, OpenRegsitry only stores content hashes of your container images.
+> It is just like a pointer, i.e storing the address of the content instead of the content itself.
 
-In addition to collaboration, we are also maintaining a fork of Skynet-Go SDK since OpenRegsitry is developed in Go and 
-the  same Skynet-Go SDK can be used by other developers as we continue to update it.
+
 
 With more adoption and use, OpenRegistry is moving towards accomplishing it's Goal which is to make OpenRegistry free for everyone.
 
 
+## Storj
+
 ## Collaborations in Progress
 
 As OpenRegistry grows in code and in community's hearts, we are working on collaborating with more awesome projects out there. 
-The first in our list is Filebase. Through Filebase: We will be able to connect with multiple decentralised storage 
+The first in our list is [Filebase](https://filebase.com/). Through Filebase: We will be able to connect with multiple decentralised storage 
 networks which means collaboration with more platforms.
 
-We are also planning on collaborating with IPFS to bring the powerful Interplanetary File System to OpenRegistry.
+We are also planning on collaborating with [iExec](https://iex.ec/) which will allow us have a choice in hosting just like storage backends with above collaborations.
 
 ![collaboration diagram](/blog-collaboration-diagram.png)
 

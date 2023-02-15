@@ -51,14 +51,6 @@ IPFS is OpenRegistry's next in line collaboration resort. We are super psyched t
 Read more about IPFS <a href="https://ipfs.io/" target="_blank">here</a>
 
 
-## Skynet
-Skynet is an open protocol for hosting data and web applications on the decentralized web using <a href="https://sia.tech" target="_blank">Sia</a>
-This allows the data to be available across the globe to any application with any device and is completely controlled by user. 
-This also means the data is not stored on any central entity or controlled by it. Skynet code is open source and is operated by SkynetLabs, 
-Skynet is built on top of the Sia blockchain network, which is also open-source and guided by the Sia Foundation.
-Learn more Skynet <a href="https://skynetlabs.com/" target="_blank">here</a> and how 
-OpenRegistry collaborates with skynet <a href="https://blog.openregistry.dev/Collaboration" target="_blank">here</a>
-
 ## Arweave
 Arweave is a new type of storage that backs data with sustainable and perpetual endowments, allowing users and developers 
 to truly store documents and Applications forever. On top of the Arweave network lives the permaweb: a global, 
