@@ -1,27 +1,28 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    fontFamily: {
-      'sans': ['ui-sans-serif', 'system-ui'],
-      'serif': ['ui-serif', 'Georgia'],
-      'mono': ['ui-monospace', 'SFMono-Regular'],
-      'poppins': ['Poppins'],
-      'jetbrains-mono': ['Jetbrains Mono'],
-      'lato': ['Lato'],
-      'body': ['"Open Sans"'],
-    },
     extend: {
-      colors:{
-        "cream-50": "#e5e2e0",
-        "brown-50": "#ddd3cd",
-        "brown-100": "#baa89d",
-        "brown-200": "#8c6f5f",
-        "brown-300": "#55443A",
-        "brown-400": "#241D19",
+      colors: {
+        "primary-800":"#030527",
+				"primary-700":"#19195C",
+				"primary-600":"#2F2F7D",
+				"primary-500":"#4848BC",
+				"primary-400":"#6363F1",
+				"primary-300":"#7373FF",
+				"primary-200":"#A3AEFD",
+				"primary-100":"#C2C9FD",
+				"primary-50":"#EEEDFF",
+				"primary-light":"#F6F5FF",
       },
+      boxShadow: {
+				'2xl': '4px 5px 1px rgba(194, 201, 253, 0.47)',
+				'3xl': '6px 7px 1px rgba(194, 201, 253, 0.47)',
+				'4xl': '15px 16px 1px rgba(194, 201, 253, 0.47)',
+			},
     },
   },
   plugins: [
-      require("@tailwindcss/typography")
+	require('@tailwindcss/typography'),
   ],
 }
