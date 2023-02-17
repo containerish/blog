@@ -54,38 +54,15 @@
 			</div>
 		</a>
 	</Card>
-
-	<Card styles="col-span-2">
-		<div class="">
-			<img src="/blog-small.svg" alt="collaboration" />
-			<div
-				class="flex justify-center items-center gap-10 text-based lg:text-xl px-2 border-2 py-2 border-stone-400 mx-1 bg-blue-100"
-			>
-				<span>5 min read</span>
-				<span>Feb 7 2023</span>
-			</div>
-		</div>
-	</Card>
-	<Card styles="col-span-2">
-		<div class="">
-			<img src="/blog-small.svg" alt="collaboration" class="" />
+	<Card styles="col-span-3">
+		<a href="/blogs/scaling-for-millions">
+			<img src="/scaling/scaling.png/" alt="collaboration" />
 			<div
 				class="flex justify-center items-center gap-10 text-base lg:text-xl px-2 border-2 py-2 border-stone-400 mx-1 bg-blue-100"
 			>
 				<span>5 min read</span>
 				<span>Feb 7 2023</span>
 			</div>
-		</div>
-	</Card>
-	<Card styles="col-span-2">
-		<div class="">
-			<img src="/blog-small.svg" alt="collaboration" />
-			<div
-				class="flex justify-center items-center gap-10 text-base lg:text-xl px-2 border-2 py-2 border-stone-400 mx-1 bg-blue-100"
-			>
-				<span>5 min read</span>
-				<span>Feb 7 2023</span>
-			</div>
-		</div>
+		</a>
 	</Card>
 </div>
