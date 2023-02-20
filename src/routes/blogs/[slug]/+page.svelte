@@ -4,10 +4,9 @@
 	export let data: PageData;
 </script>
 
-<div
-	class="min-w-max lg:min-w-[1500px] prose prose-img:w-[450px] lg:prose-img:w-[4000px] prose-p:text-xl h-full mx-auto"
->
-	<div class="flex flex-col px-6 py-9 max-w-[400px] md:max-w-[600px] lg:max-w-max">
+<!-- max-w-screen prose mx-auto h-full min-w-max px-10  prose-img:w-[450px] lg:prose-img:min-w-[1100px] -->
+<div class="w-full">
+	<div class="mx-auto flex flex-col px-6 py-9 max-w-max lg:max-w-7xl prose prose-slate md:prose-p:text-lg prose-headings:text-primary-500">
 		{@html data.content}
 	</div>
 </div>

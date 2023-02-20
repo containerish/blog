@@ -11,8 +11,31 @@ html, body {
     overflow-x: hidden;
 }
 body {
+  background-color: rgb(248 250 252);
     margin: 0;
     padding: 0px;
     @apply mx-auto;
-    max-width: 2000px !important;
+    ;
 }
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: gray;
+  }
+  
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 0px !important;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: darkgray;
+    border-radius: 5px;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: darkgray;
+    border-radius: 14px;
+    border: 3px solid darkgray;
+  }
+  

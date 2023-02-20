@@ -4,7 +4,7 @@
 </script>
 
 <Navbar />
-<div class="min-h-max lg:max-w-[2000px]">
+<div class="min-h-max max-w-[2000px] mx-auto">
 	<slot />
 </div>
 <Footer />

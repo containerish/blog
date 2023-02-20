@@ -3,9 +3,9 @@
 	import Logo from './logo.svelte';
 </script>
 
-<header class="bg-primary-50 sticky top-0 z-50 w-full lg:max-w-[2000px]">
-	<nav class="px-0 lg:px-16 mx-auto py-3">
-		<div class="px-6 mx-auto">
+<header class="bg-primary-50 sticky top-0 z-50 w-full ">
+	<nav class="px-0 lg:px-16 py-3 max-w-[2000px] mx-auto">
+		<div class="px-6">
 			<div class="flex flex-col">
 				<div class="flex items-center justify-between w-full">
 					<div
