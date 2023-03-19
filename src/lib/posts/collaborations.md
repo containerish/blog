@@ -1,3 +1,10 @@
+ ---
+title: 'A second blog post'
+description: "The first blog post wasn't enough; I had to come back and write more about Svelte and SvelteKit."
+author: 'Mehdi Vasigh'
+date: '2021-05-03'
+published: true
+---
  
 <div class="w-full flex justify-center text-primary-500 text-5xl font-semibold text-center">OpenRegistry & Collaborations with Community Projects</div>
 
@@ -31,11 +38,11 @@ where OpenRegistry was the winner,
 Shortly after, we engaged with CAB (Community Awards Board) at Akash Network for a grant funding to continue developing OpenRegistry.
 Following are the individual posts:
 
- [OpenRegistry - an Open Container Registry](https://forum.akash.network/t/openregistry-an-open-container-registry/76)
- [OpenRegistry - Beta Registration](https://forum.akash.network/t/openregistry-an-open-and-reliable-container-registry/515)
- [OpenRegistry - Community Proposal]((https://forum.akash.network/t/openregistry-community-proposal/684))
- [OpenRegistry - OCI Certification](https://forum.akash.network/t/openregistry-is-now-oci-certified/3317)
- [OpenRegistry - Roadmap](https://forum.akash.network/t/openregistry-product-update/3745)
+[OpenRegistry - an Open Container Registry](https://forum.akash.network/t/openregistry-an-open-container-registry/76)
+[OpenRegistry - Beta Registration](https://forum.akash.network/t/openregistry-an-open-and-reliable-container-registry/515)
+[OpenRegistry - Community Proposal](https://forum.akash.network/t/openregistry-community-proposal/684)
+[OpenRegistry - OCI Certification](https://forum.akash.network/t/openregistry-is-now-oci-certified/3317)
+[OpenRegistry - Roadmap](https://forum.akash.network/t/openregistry-product-update/3745)
 
 
 Akash community continues to support OpenRegistry through CAB and active community members on each step helping us achieve 

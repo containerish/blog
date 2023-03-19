@@ -1,12 +1,17 @@
 <script lang="ts">
 	import type { PageData } from './$types';
+	import type { SvelteComponentTyped } from 'svelte/internal';
 
 	export let data: PageData;
+
+	type C = $$Generic<typeof SvelteComponentTyped<any, any, any>>;
+	$: component = data.component as unknown as C;
 </script>
 
-<!-- max-w-screen prose mx-auto h-full min-w-max px-10  prose-img:w-[450px] lg:prose-img:min-w-[1100px] -->
 <div class="w-full">
-	<div class="mx-auto flex flex-col px-6 py-9 max-w-max lg:max-w-7xl prose prose-slate md:prose-p:text-lg prose-headings:text-primary-500">
-		{@html data.content}
+	<div
+		class="prose prose-slate mx-auto flex max-w-max flex-col px-6 py-9 prose-headings:text-primary-500 md:prose-p:text-lg lg:max-w-7xl"
+	>
+		<svelte:component this={component} />
 	</div>
 </div>

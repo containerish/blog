@@ -1,7 +1,3 @@
----
-layout: post
----
-
 <script>
     import User from "../../lib/icons/user.svelte"
 </script>

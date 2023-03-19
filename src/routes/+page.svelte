@@ -1,5 +1,7 @@
 <script lang="ts">
 	import { Card, ButtonSolid } from '../lib';
+	import type { PageData } from './$types';
+	export let data: PageData;
 </script>
 
 <svelte:head>
@@ -55,7 +57,7 @@
 	</Card>
 	<Card styles="col-span-3">
 		<a href="/blogs/scaling-for-millions">
-			<img src="/scaling/scaling.png/" alt="collaboration" />
+			<img src="/scaling/scaling.png" alt="collaboration" />
 			<div
 				class="mx-1 flex items-center justify-center gap-10 border-2 border-stone-400 bg-blue-100 px-2 py-2 text-base lg:text-xl"
 			>

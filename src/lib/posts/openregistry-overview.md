@@ -1,7 +1,8 @@
-
 <div class="w-full flex justify-center text-primary-500 text-5xl font-semibold">OpenRegistry Overview</div>
+
    
-![openregistry-overview](/overview-blog.png )
+![openregistry-overview](/overview-blog.png)
+
 I would love to share our story and how OpenRegistry became a full fledged product that it is today.
 My partner (who had been in Web3 eco system for a few years) started OpenRegistry as a fun project when he heard Greg Osuri(CEO at Akash Network) on a youtube interview. They talked about how amazing would it be to have a container registry on Akash.  
 This sparked a light in him and he started putting a few hours everyday in building what is now OpenRegistry. After a short while, there came a Hackathon on Akash which motivated him even more to accelerate the work and present it for the Hackathon. We joined forces and started working on it together and submitted our first working prototype in Hackathon and we WON! yayy!! 
@@ -15,7 +16,7 @@ We needed a quick to build working prototype and only for those reasons we decid
 
 ## WebApp:
 The WebApp was previously written with React and JavaScript and is now being replaced with SvelteKit and TypeScript which will definitely make it more efficient and fast. We are also using a large amount of Tailwind CSS components which are lightweight and super simple to use.
-The new WebApp design is full of color and fun diagrams. We have also improved our documentation with step-by-step guides and cute [zines](docs.openregistry.dev) to learn about containers in a fun way.
+The new WebApp design is full of color and fun diagrams. We have also improved our documentation with step-by-step guides and cute [zines](https://docs.openregistry.dev) to learn about containers in a fun way.
 
 ## Database
 The Database layer was previously written with Badger which is simple to use key value store and fast like a cache. However for scaling and data organization, we have migrated to PostgreSQL database. We are planning to keep using badger for operations that are very frequent. Alongside this, we have tried to make an effort for future DB migrations to be simple, quick and with zero code changes. This can be achieved by abstracting the database operations in OpenRegistry to an interface. Any new database like MongoDB could be implemented and used by just satisfying the storage interface with ease and no changes in existing code.
