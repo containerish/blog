@@ -10,7 +10,8 @@
 
 <div class="w-full">
 	<div
-		class="prose prose-slate mx-auto flex max-w-max flex-col px-6 py-9 prose-headings:text-primary-500 md:prose-p:text-lg lg:max-w-7xl"
+		class="prose prose-slate mx-auto flex max-w-max flex-col px-6 py-9 prose-a:font-semibold 
+	prose-a:text-primary-500 prose-a:no-underline lg:max-w-6xl lg:prose-p:text-lg prose-li:text-base"
 	>
 		<svelte:component this={component} />
 	</div>

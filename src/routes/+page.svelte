@@ -26,7 +26,7 @@
 	</Card>
 
 	<div class="col-span-2 flex flex-col items-start justify-center gap-5">
-		<span class="text-lg text-primary-600 antialiased lg:text-2xl"
+		<span class="text-lg lg:text-xl text-primary-600 antialiased"
 			>An Overview on how OpenRegistry works under the hood and in conjuntion with other web3 projects.</span
 		>
 		<ButtonSolid>learn more</ButtonSolid>

@@ -11,8 +11,8 @@
 	{disabled}
 	on:click={() => onClick()}
 	class="{isLoading ? 'px-2' : 'px-4'} {styles}
-	flex justify-center space-x-2 items-center max-w-[48rem] min-w-[144px] h-[60px] 
-	rounded-md text-lg capitalize font-medium border-2 bg-primary-300 border-primary-700 text-primary-800
+	flex justify-center space-x-2 items-center max-w-[48rem] min-w-max lg:min-w-[144px] h-10 lg:h-12 
+	rounded-md text-base lg:text-lg capitalize font-medium border-2 bg-primary-300 border-primary-700 text-primary-800
 	bg-opacity-80 hover:shadow-primary-600 hover:shadow-3xl disabled:bg-slate-300 disabled:shadow-none transition-all duration-200
 	disabled:text-slate-400 gap-1 tracking-wide px-5"
 >

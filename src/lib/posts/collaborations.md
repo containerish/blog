@@ -1,8 +1,8 @@
- ---
-title: 'A second blog post'
-description: "The first blog post wasn't enough; I had to come back and write more about Svelte and SvelteKit."
-author: 'Mehdi Vasigh'
-date: '2021-05-03'
+---
+title: 'Collaborations'
+description: "OpenRegistry is about the work done together."
+author: 'Guacamole'
+date: '2023-02-01'
 published: true
 ---
  
@@ -33,15 +33,14 @@ Containerish should become a hub of collaborations as there come more projects l
 Akash Network is a distributed marketplace for cloud compute. The beginning of OpenRegistry was with Akash.
 We worked hand in hand with Akash Network to deploy OpenRegistry and explore possibilities of making the developer experience 
 seamless. Akash Network hosted a Hackathon in July of 2021 called Open Cloud challenge in collaboration with Skynet, 
-where OpenRegistry was the winner, 
-
+where OpenRegistry was the winner.  
 Shortly after, we engaged with CAB (Community Awards Board) at Akash Network for a grant funding to continue developing OpenRegistry.
 Following are the individual posts:
 
-[OpenRegistry - an Open Container Registry](https://forum.akash.network/t/openregistry-an-open-container-registry/76)
-[OpenRegistry - Beta Registration](https://forum.akash.network/t/openregistry-an-open-and-reliable-container-registry/515)
-[OpenRegistry - Community Proposal](https://forum.akash.network/t/openregistry-community-proposal/684)
-[OpenRegistry - OCI Certification](https://forum.akash.network/t/openregistry-is-now-oci-certified/3317)
+[OpenRegistry - an Open Container Registry](https://forum.akash.network/t/openregistry-an-open-container-registry/76)  
+[OpenRegistry - Beta Registration](https://forum.akash.network/topenregistry-an-open-and-reliable-container-registry/515)  
+[OpenRegistry - Community Proposal](https://forum.akash.network/t/openregistry-community-proposal/684)  
+[OpenRegistry - OCI Certification](https://forum.akash.network/t/openregistry-is-now-oci-certified/3317)  
 [OpenRegistry - Roadmap](https://forum.akash.network/t/openregistry-product-update/3745)
 
 
@@ -53,12 +52,9 @@ We are all but thankful for Akash and their solid companionship.
 
 ## Inter Planetory File System (IPFS)
 
-IPFS is a peer-to-peer 
-
+IPFS is a peer-to-peer
 > with IPFS, OpenRegsitry only stores content hashes of your container images.
 > It is just like a pointer, i.e storing the address of the content instead of the content itself.
-
-
 
 With more adoption and use, OpenRegistry is moving towards accomplishing it's Goal which is to make OpenRegistry free for everyone.
 

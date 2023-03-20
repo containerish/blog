@@ -10,11 +10,11 @@ This sparked a light in him and he started putting a few hours everyday in build
 As we moved along, we came across many use cases and projects where OpenRegistry could make a difference and so we continued to work on OpenRegistry because at this point it was more than just rewards or a Hackathon to win.
 Now let's talk about the technical bits of OpenRegistry, What technologies we use and why...
 
-## Backend:
+## Backend
 The OpenRegistry backend is written in Go with echo framework which is the most abstract and user-friendly framework. 
 We needed a quick to build working prototype and only for those reasons we decided to go with echo. However, we’ll be working on replacing it entirely with a better or no framework for performance and more efficiency.  
 
-## WebApp:
+## WebApp
 The WebApp was previously written with React and JavaScript and is now being replaced with SvelteKit and TypeScript which will definitely make it more efficient and fast. We are also using a large amount of Tailwind CSS components which are lightweight and super simple to use.
 The new WebApp design is full of color and fun diagrams. We have also improved our documentation with step-by-step guides and cute [zines](https://docs.openregistry.dev) to learn about containers in a fun way.
 
