@@ -8,10 +8,6 @@
 	<title>Blog | Home</title>
 </svelte:head>
 
-<div class="my-8 flex items-center gap-3 px-6 lg:px-20">
-	<img src="/logo-new.png" alt="logo-openregistr" class="w-12 lg:w-16" />
-	<span class="text-5xl font-semibold text-primary-500 lg:text-7xl"> Blog </span>
-</div>
 <div class="m-16 flex flex-col gap-10 lg:grid lg:grid-cols-6">
 	<Card styles="col-span-4">
 		<a href="/blogs/openregistry-overview">
@@ -26,7 +22,7 @@
 	</Card>
 
 	<div class="col-span-2 flex flex-col items-start justify-center gap-5">
-		<span class="text-lg lg:text-xl text-primary-600 antialiased"
+		<span class="text-lg text-primary-600 antialiased lg:text-xl"
 			>An Overview on how OpenRegistry works under the hood and in conjuntion with other web3 projects.</span
 		>
 		<ButtonSolid>learn more</ButtonSolid>

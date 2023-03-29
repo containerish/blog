@@ -13,7 +13,8 @@
 						on:click={() => goto('/')}
 						class="cursor-pointer flex items-center"
 					>
-						<Logo type="dark" />
+						<!-- <Logo type="dark" /> -->
+						<img src="/blog-dark.png" alt="openregistry-blog" width="180px">
 					</div>
 					<div class="flex flex-col lg:flex-row md:mt-0 md:mx-1 font-semibold gap-3">
 						<a
