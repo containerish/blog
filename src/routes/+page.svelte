@@ -73,4 +73,18 @@
 			</div>
 		</a>
 	</Card>
+	<Card styles="col-span-3">
+		<a href="/blogs/troubles-with-distributed-systems">
+			<div class="border-2 border-slate-400">
+				<img src="/troubles.png" alt="collaboration" />
+
+			</div>
+			<div
+				class="mx-1 flex items-center justify-center gap-10 border-2 border-stone-400 bg-blue-100 px-2 py-2 text-base lg:text-xl"
+			>
+				<span>5 min read</span>
+				<span>Feb 28 2023</span>
+			</div>
+		</a>
+	</Card>
 </div>
