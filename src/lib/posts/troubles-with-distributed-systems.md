@@ -1,4 +1,4 @@
-<div class="w-full flex justify-center text-primary-500 text-7xl font-semibold">Troubles with Distributed Systems</div>
+<div class="w-full flex justify-center text-primary-500 text-3xl font-semibold">Troubles with Distributed Systems</div>
 
 ![troubles](/troubles.png)
 
@@ -42,6 +42,8 @@ A Network Partition or *netsplit* is a situation when a part of network is cut o
 
 Even if network faults are rare in your environment you should still prepare your software to handle it. Because if the software is not made aware of or tested against such faults, it might do arbitrary unexpected things when a network call fails. It might not necessarily mean that you must tolerate the network faults, it can be as simple as showing an error message or temporarily pause serving.
 
+![unreliable network](/unreliable-networks.png)
+
 To solve the problems with network calls, the simplest way is to use timeouts. For example, if a node doesn't respond in a certain amount of time. It will be declared dead. But with timeouts comes problem of deciding how long a timeout should be? a long timeout means the user will have to wait for a longtime or see loading messages only to find out the request has failed. On the other hand a short timeout can declare a node dead prematurely only to find out that the node was actually loaded and took time to respond, in this case the operation might end up being performed twice. Or the worst case with short timeouts, every node starts declaring every other node dead and everything stops working all together.
 
 ### Unreliable Clocks
@@ -55,6 +57,10 @@ Applications depend on clocks to answer many questions like:
 - What is the timestamp on error message on the log file?
 
 The clocks must be synchronised across the system to calculate everything correctly. NTP is usually used to sync the time across the network. When a system has strayed a little too far from NTP servers,  it may refuse to sync or forcibly reset the local time to match with NTP. In later case the services observing time might see the time go backward or suddenly jump forward.
+![unreliable clocks](/unreliable-clocks.png)
+
+In the above diagram, 2 clients are trying to modify the value of variable x.
+The clocks are out of sync by mere 3ms which is better than what we can expect in practice. 
 
 Although the clocks rarely misbehave, a robust software must be prepared to handle incorrect clocks. When a clock is out of sync and a little portion of our application relies on clocks, it might cause small data loses and can easily go unnoticed. But as the time passes the drift is going to get further and further from reality and can cause a catastrophe at some point. We must keep clocks in check and eliminate the nodes that have drifted from the cluster.
 
