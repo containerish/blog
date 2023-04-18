@@ -60,7 +60,9 @@ The clocks must be synchronised across the system to calculate everything correc
 ![unreliable clocks](/unreliable-clocks.png)
 
 In the above diagram, 2 clients are trying to modify the value of variable x.
-The clocks are out of sync by mere 3ms which is better than what we can expect in practice. 
+The clocks are out of sync by mere 3 milliseconds which is better than what we can expect in practice. Client A's write operation ( x=1 ) has a timestamp of 42.004 and Client B tries to increament x by 1 ( making it x=2) with timestamp of 42.003, when both of these transactions reach node 2, the client B's increment transation will be ignored since the most recent transation as per timestamps is x=1 at 42.004. 
+This conflict resolution stategy is called Last Write Wins (LWW) and is adopted by major paltforms like Cassandra.
+In reality, the skew in clocks could be much bigger which can cause problems like database writes mysteriously disappearing, independent nodes generating writes with same timestamp but conflicting values and the system not able to determine what transaction is actually more recent.
 
 Although the clocks rarely misbehave, a robust software must be prepared to handle incorrect clocks. When a clock is out of sync and a little portion of our application relies on clocks, it might cause small data loses and can easily go unnoticed. But as the time passes the drift is going to get further and further from reality and can cause a catastrophe at some point. We must keep clocks in check and eliminate the nodes that have drifted from the cluster.
 
@@ -74,4 +76,4 @@ If distributed systems are to work, we must accept the fact that every component
 I know, this blog talked about things going wrong in every possible way but hey don't they say its always better to prepare for the worst and hope for the best?
 And lastly an amazing quote by Douglas Adams - 
 
-> “The major difference between a thing that might go wrong and a thing that cannot possibly go wrong is that when a thing that cannot possibly go wrong goes wrong it usually turns out to be impossible to get at or repair.”
+> The major difference between a thing that might go wrong and a thing that cannot possibly go wrong is that when a thing that cannot possibly go wrong goes wrong it usually turns out to be impossible to get at or repair.
