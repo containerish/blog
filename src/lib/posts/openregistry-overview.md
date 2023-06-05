@@ -1,4 +1,4 @@
-<div class="w-full flex justify-center text-primary-500 text-5xl font-semibold">OpenRegistry Overview</div>
+<div class="w-full flex justify-center text-primary-500 text-4xl font-semibold">OpenRegistry Overview</div>
 
    
 ![openregistry-overview](/overview-blog.png)

@@ -1,4 +1,4 @@
-<div class="w-full flex justify-center text-primary-500 text-3xl font-semibold">Troubles with Distributed Systems</div>
+<div class="w-full flex justify-center text-primary-500 text-4xl font-semibold">Troubles with Distributed Systems</div>
 
 ![troubles](/troubles.png)
 

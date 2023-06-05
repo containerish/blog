@@ -3,14 +3,14 @@
 </script>
 
 <footer class="bg-primary-700 p-10">
-	<div class="container mx-auto lg:px-10">
-		<div class="flex items-center justify-between">
+	<div class="max-w-[2000px] mx-auto">
+		<div class="flex items-center justify-between w-full">
 			<div class="lg:-mb-16 flex flex-col lg:flex-row gap-4">
 				<a
 					href="https://docs.openregistry.dev"
 					target="_blank"
 					rel="noreferrer"
-					class="text-3xl tracking-tight text-slate-100 hover:text-slate-300 hover:no-underline lg:text-6xl"
+					class="text-4xl tracking-tight text-primary-100 hover:text-slate-100 hover:no-underline"
 				>
 					Docs,
 				</a>
@@ -18,7 +18,7 @@
 					href="https://github.com/containerish/openregistry"
 					target="_blank"
 					rel="noreferrer"
-					class="text-3xl tracking-tight text-slate-100 hover:text-slate-300 hover:no-underline lg:text-6xl"
+					class="text-4xl tracking-tight text-primary-100 hover:text-slate-100 hover:no-underline"
 				>
 					Github,
 				</a>
@@ -26,7 +26,7 @@
 					href="https://twitter.com/containerish"
 					target="_blank"
 					rel="noreferrer"
-					class="text-3xl tracking-tight text-slate-100 hover:text-slate-300 hover:no-underline lg:text-6xl"
+					class="text-4xl tracking-tight text-primary-100 hover:text-slate-100 hover:no-underline"
 				>
 					Twitter,
 				</a>
@@ -34,13 +34,13 @@
 					href="https://discord.gg/Mx8HAazrHc"
 					target="_blank"
 					rel="noreferrer"
-					class="text-3xl tracking-tight text-slate-100 hover:text-slate-300 hover:no-underline lg:text-6xl"
+					class="text-4xl tracking-tight text-primary-100 hover:text-slate-100 hover:no-underline"
 				>
 					Discord
 				</a>
 			</div>
 
-			<div class="ml-5">
+			<div>
 				<a
 					href="https://openregistry.dev"
 					target="_blank"
@@ -49,7 +49,7 @@
 				>
 					<Logo type="light" />
 				</a>
-				<p class="mt-2  max-w-md text-base text-slate-200 antialiased lg:text-lg">
+				<p class="mt-2 ml-3 max-w-md text-slate-200 antialiased">
 					Join us and become a part of <br />the decentralised future of internet
 				</p>
 			</div>

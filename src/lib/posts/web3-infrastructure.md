@@ -1,4 +1,4 @@
-<div class="w-full flex justify-center text-primary-500 text-5xl font-semibold">Web 3.0 Infrastructure</div>
+<div class="w-full flex justify-center text-primary-500 text-4xl font-semibold">Web 3.0 Infrastructure</div>
 
 ![web3 infrastructure](/blog-web3-infra.png)
 As we witness the rise of Web 3.0 and shift in paradigm of technology. The world is moving towards decentralisation 

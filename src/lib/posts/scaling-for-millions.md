@@ -1,4 +1,4 @@
-<div class="aspect-video w-full flex flex-col items-center text-primary-500 text-5xl font-semibold">
+<div class="aspect-video w-full flex flex-col items-center text-primary-500 text-4xl font-semibold">
     Scaling for millions of users
     <img src="/scaling/scaling.png" alt=""/>
 </div>

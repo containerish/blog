@@ -1,4 +1,4 @@
-<div class="aspect-video w-full flex flex-col items-center text-primary-500 text-5xl font-semibold">Decentralisation is the furture
+<div class="aspect-video w-full flex flex-col items-center text-primary-500 text-4xl font-semibold">Decentralisation is the furture
     <img src="/decentralisation/different-system-arch.png" alt=""/>
 </div>
 

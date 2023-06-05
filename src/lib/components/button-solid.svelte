@@ -1,15 +1,12 @@
 <script lang="ts">
-	export let onClick: Function = () => {};
 	export let isLoading = false;
 	export let disabled = false;
-	export let type: string = '';
 	export let styles = '';
 </script>
 
 <button
-	{type}
 	{disabled}
-	on:click={() => onClick()}
+	on:click
 	class="{isLoading ? 'px-2' : 'px-4'} {styles}
 	flex justify-center space-x-2 items-center max-w-[48rem] min-w-max lg:min-w-[144px] h-10 lg:h-12 
 	rounded-md text-base lg:text-lg capitalize font-medium border-2 bg-primary-300 border-primary-700 text-primary-800

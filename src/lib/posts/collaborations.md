@@ -6,7 +6,7 @@ date: '2023-02-01'
 published: true
 ---
  
-<div class="w-full flex justify-center text-primary-500 text-5xl font-semibold text-center">OpenRegistry & Collaborations with Community Projects</div>
+<div class="w-full flex justify-center text-primary-500 text-4xl font-semibold text-center">OpenRegistry & Collaborations with Community Projects</div>
 
 ![collaborations](/collaboration-blog.png)
 
