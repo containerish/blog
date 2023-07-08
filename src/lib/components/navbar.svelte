@@ -14,9 +14,9 @@
 						class="cursor-pointer flex items-center"
 					>
 						<!-- <Logo type="dark" /> -->
-						<img src="/blog-dark.png" alt="openregistry-blog" width="180px">
+						<img src="/blog-dark.png" alt="openregistry-blog" width="180px" class="w-[100px] lg:w-[]">
 					</div>
-					<div class="flex flex-col lg:flex-row md:mt-0 md:mx-1 font-semibold gap-3">
+					<div class="flex flex-col lg:flex-row md:mt-0 md:mx-1 font-semibold lg:gap-3">
 						<a
 							rel="noreferrer"
 							class="my-1 hover:scale-125 text-lg leading-5 text-primary-600

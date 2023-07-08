@@ -2,15 +2,15 @@
 	import Logo from './logo.svelte';
 </script>
 
-<footer class="bg-primary-700 p-10">
-	<div class="max-w-[2000px] mx-auto">
-		<div class="flex items-center justify-between w-full">
-			<div class="lg:-mb-16 flex flex-col lg:flex-row gap-4">
+<footer class="bg-primary-700 px-3 py-9 md:p-10">
+	<div class="mx-auto max-w-[2000px]">
+		<div class="flex flex-col lg:flex-row w-full items-start md:items-center gap-9 justify-between">
+			<div class="flex flex-row gap-4 w-1/2">
 				<a
 					href="https://docs.openregistry.dev"
 					target="_blank"
 					rel="noreferrer"
-					class="text-4xl tracking-tight text-primary-100 hover:text-slate-100 hover:no-underline"
+					class="text-2xl font-semibold tracking-tight text-slate-50 hover:text-slate-200 hover:no-underline md:text-5xl md:font-normal"
 				>
 					Docs,
 				</a>
@@ -18,7 +18,7 @@
 					href="https://github.com/containerish/openregistry"
 					target="_blank"
 					rel="noreferrer"
-					class="text-4xl tracking-tight text-primary-100 hover:text-slate-100 hover:no-underline"
+					class="text-2xl font-semibold tracking-tight text-slate-50 hover:text-slate-200 hover:no-underline md:text-5xl md:font-normal"
 				>
 					Github,
 				</a>
@@ -26,7 +26,7 @@
 					href="https://twitter.com/containerish"
 					target="_blank"
 					rel="noreferrer"
-					class="text-4xl tracking-tight text-primary-100 hover:text-slate-100 hover:no-underline"
+					class="text-2xl font-semibold tracking-tight text-slate-50 hover:text-slate-200 hover:no-underline md:text-5xl md:font-normal"
 				>
 					Twitter,
 				</a>
@@ -34,7 +34,7 @@
 					href="https://discord.gg/Mx8HAazrHc"
 					target="_blank"
 					rel="noreferrer"
-					class="text-4xl tracking-tight text-primary-100 hover:text-slate-100 hover:no-underline"
+					class="text-2xl font-semibold tracking-tight text-slate-50 hover:text-slate-200 hover:no-underline md:text-5xl md:font-normal"
 				>
 					Discord
 				</a>
@@ -49,8 +49,8 @@
 				>
 					<Logo type="light" />
 				</a>
-				<p class="mt-2 ml-3 max-w-md text-slate-200 antialiased">
-					Join us and become a part of <br />the decentralised future of internet
+				<p class="mt-1 md:ml-5 md:text-lg max-w-[343px] text-slate-200 antialiased">
+					Join us and become a part of the decentralised future of internet
 				</p>
 			</div>
 		</div>
