@@ -5,11 +5,11 @@
 {#if type == 'light'}
 	<picture class="flex items-center gap-2">
 		<img
-			class="w-[60px] desktop:w-[40px] laptop:w-[40px] half:w-[40px] lg:max-w-4xl"
+			class="w-[40px] md:w-[60px]"
 			src="/logo-light.png"
 			alt="OpenRegistry-Logo"
 		/>
-		<span class="text-3xl desktop:text-xl laptop:text-xl half:text-xl font-semibold text-white">
+		<span class="text-2xl md:text-3xl font-semibold text-white">
 			OpenRegistry</span
 		>
 	</picture>
@@ -18,12 +18,12 @@
 {#if type == 'dark'}
 	<picture class="flex items-center gap-2">
 		<img
-			class="w-[60px] desktop:w-[40px] laptop:w-[40px] half:w-[40px] lg:max-w-4xl"
+			class="w-[40px] md:w-[60px]"
 			src="/logo-new.png"
 			alt="OpenRegistry-Logo"
 		/>
 		<span
-			class="text-3xl desktop:text-xl laptop:text-xl half:text-xl font-semibold text-primary-500"
+			class="text-2xl md:text-3xl font-semibold text-primary-500"
 		>
 			OpenRegistry</span
 		>

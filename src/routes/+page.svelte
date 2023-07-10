@@ -9,7 +9,7 @@
 	<title>Blog | Home</title>
 </svelte:head>
 
-<div class="m-16 flex flex-col gap-10 lg:grid lg:grid-cols-6">
+<div class="m-3 lg:m-16 flex flex-col gap-10 lg:grid lg:grid-cols-6 py-3">
 	<Card styles="col-span-4">
 		<a href="/blogs/openregistry-overview">
 			<img src="/overview-blog.png" alt="collaboration" />
