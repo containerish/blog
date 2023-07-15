@@ -9,10 +9,10 @@
 	<title>Blog | Home</title>
 </svelte:head>
 
-<div class="m-3 lg:m-16 flex flex-col gap-10 lg:grid lg:grid-cols-6 py-3">
+<div class="m-3 flex flex-col gap-10 py-3 lg:m-16 lg:grid lg:grid-cols-6">
 	<Card styles="col-span-4">
 		<a href="/blogs/openregistry-overview">
-			<img src="/overview-blog.png" alt="collaboration" />
+			<img src="/overview.png" alt="collaboration" />
 			<div
 				class="mx-1 flex items-center justify-center gap-10 border-2 border-stone-400 bg-orange-100 px-2 py-2 text-base lg:text-xl"
 			>
@@ -31,7 +31,7 @@
 
 	<Card styles="col-span-3">
 		<a href="/blogs/collaborations">
-			<img src="/collaboration-blog.png" alt="collaboration" />
+			<img src="/collaborations.png" alt="collaboration" />
 			<div
 				class="mx-1 flex items-center justify-center gap-10 border-2 border-stone-400 bg-purple-100 px-2 py-2 text-base lg:text-xl"
 			>
@@ -41,7 +41,7 @@
 		</a>
 	</Card>
 
-	<Card styles="col-span-3 bg-white">
+	<Card styles="col-span-3">
 		<a href="/blogs/web3-infrastructure">
 			<img src="/blog-web3-infra.png" alt="collaboration" />
 			<div
@@ -52,7 +52,7 @@
 			</div>
 		</a>
 	</Card>
-	<Card styles="col-span-3 bg-white">
+	<Card styles="col-span-3">
 		<a href="/blogs/scaling-for-millions">
 			<img src="/scaling/scaling.png" alt="collaboration" />
 			<div
@@ -63,7 +63,7 @@
 			</div>
 		</a>
 	</Card>
-	<Card styles="col-span-3 bg-white">
+	<Card styles="col-span-3">
 		<a href="/blogs/decentralisation">
 			<img src="/decentralisation/different-system-arch.png" alt="collaboration" />
 			<div
@@ -74,7 +74,7 @@
 			</div>
 		</a>
 	</Card>
-	<Card styles="col-span-3 bg-white">
+	<Card styles="col-span-3">
 		<a href="/blogs/troubles-with-distributed-systems">
 			<div>
 				<img src="/troubles.png" alt="collaboration" />
